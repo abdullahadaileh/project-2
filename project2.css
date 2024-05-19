@@ -1,0 +1,141 @@
+
+body{
+    background: rgb(57, 57, 57);
+}
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 200;
+}
+.logo{
+    color: rgba(57, 57, 57, 1);
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+}
+.nav a{
+    color: rgba(57, 57, 57, 1);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+}
+section{
+    padding: 100px 200px;
+}
+.section1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(Black\ and\ Red\ Simple\ Tips\ How\ To\ Be\ A\ Programmer\ Youtube\ Thumbnail.png) no-repeat;
+    background-size: cover;
+
+}
+.section1 h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 1400;
+}
+.section1 h1 span {
+    display: inline-block;
+    color: yellow;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section1 h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+} 
+.but1{
+    text-decoration: none;
+    color: yellow;
+    background: rgb(57, 57, 57);
+    border: yellow;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 9px;
+}
+.but1:hover {
+    background: rgb(60, 60, 60);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+
+}
+.About{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+.section21{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(36, 36, 36);
+    width: 21.25;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.icon{
+    font-size: 8em;
+    text-align: center;
+    margin: 10px;
+}
+.cssinfo{
+     color: white;
+     font-size: 1.2em;
+     margin: 10px;
+     text-align: center;
+}
+.insta{
+    text-decoration: none;
+    color: yellow;
+}
