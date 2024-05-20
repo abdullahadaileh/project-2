@@ -33,18 +33,25 @@ header{
     font-size: 20px;
     padding-left: 20px;
 }
-section{
+section,footer{
     padding: 100px 200px;
 }
 .section1{
     width: 100%;
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    background: url(Black\ and\ Red\ Simple\ Tips\ How\ To\ Be\ A\ Programmer\ Youtube\ Thumbnail.png) no-repeat;
+    align-items: end;
+    justify-content: space-between;
+    background: url(Black\ back.png) no-repeat;
     background-size: cover;
+    padding: 0% !important;
+
 
 }
+.done{
+    align-self: center;
+margin-left: 60px;}
+
 .section1 h1 {
     color: white;
     font-size: 20px;
@@ -137,5 +144,5 @@ section{
 }
 .insta{
     text-decoration: none;
-    color: yellow;
+    color: white;
 }
