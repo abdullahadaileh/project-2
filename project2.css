@@ -257,7 +257,8 @@ text-decoration: none;
 }
 .ico a{
     color: black;
-    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
@@ -269,8 +270,9 @@ text-decoration: none;
         padding: 10px 20px;
     }
     .nav a{
-        font-size: 7px;
+        font-size: 10px;
         align-items: center;
+        padding-left: 10px;
     }
     .logo{
         font-size: 14px;
@@ -341,5 +343,8 @@ text-decoration: none;
     .footer1{
         padding: 18px 28px;
     }
-    
+    .ico a{
+        padding-left: 40px;
+    padding-right: 40px;
+    }
  }
