@@ -1,8 +1,8 @@
-
-body{
+body {
     background: rgb(57, 57, 57);
 }
-*{
+
+* {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
@@ -10,7 +10,14 @@ body{
     margin: 0;
 
 }
-header{
+section,footer {
+    padding: 100px 200px;
+}
+
+
+                                   /* NAVBAR START*/
+
+header {
     background-color: white;
     width: 100%;
     position: fixed;
@@ -20,23 +27,39 @@ header{
     padding: 10px 200px;
     z-index: 200;
 }
-.logo{
+
+
+
+.logo {
     color: rgba(57, 57, 57, 1);
     font-weight: 400;
     font-size: 28px;
     text-decoration: none;
 }
-.nav a{
+
+
+
+
+.nav a {
     color: rgba(57, 57, 57, 1);
     text-decoration: none;
     font-weight: 300;
     font-size: 20px;
     padding-left: 20px;
 }
-section,footer{
-    padding: 100px 200px;
+.nav:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+
 }
-.section1{
+
+
+
+                                   /* NAVBAR END*/
+
+/* section1 */
+
+.section1 {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -45,48 +68,76 @@ section,footer{
     background: url(Black\ back.png) no-repeat;
     background-size: cover;
     padding: 0% !important;
-
-
+    box-shadow: 0 10px 25px rgba(1 1 1 / 19%);
 }
-.done{
+
+
+
+
+.done {
     align-self: center;
-margin-left: 60px;}
+    margin-left: 60px;
+}
+
+
+
 
 .section1 h1 {
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 1400;
 }
+
+
+
+
 .section1 h1 span {
     display: inline-block;
     color: yellow;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 10px;
 }
+
+
+
+
 .section1 h2 {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 10px;
     margin-bottom: 23px;
-} 
-.but1{
+}
+
+
+
+
+.but1 {
     text-decoration: none;
     color: yellow;
     background: rgb(57, 57, 57);
     border: yellow;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     display: inline-block;
     padding: 10px;
     border-radius: 9px;
 }
+
+
+
+
+
 .but1:hover {
     background: rgb(60, 60, 60);
     transform: scale(1.1);
     transition: 0.5s ease;
 
 }
-.About{
+
+
+
+
+.About {
     display: flex;
     justify-content: center;
     color: yellow;
@@ -95,7 +146,12 @@ margin-left: 60px;}
     margin-bottom: 50px;
 
 }
-.section21{
+
+
+
+
+
+.section21 {
     color: white;
     display: flex;
     justify-content: center;
@@ -104,7 +160,11 @@ margin-left: 60px;}
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.title{
+
+
+
+
+.title {
     display: flex;
     justify-content: center;
     color: yellow;
@@ -113,36 +173,154 @@ margin-left: 60px;}
     margin-bottom: 50px;
 
 }
-.content{
+
+
+
+
+.content {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.card{
+
+.card {
     background-color: rgb(36, 36, 36);
-    width: 21.25;
+    width: 300px;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
 }
+
+
+
 .card:hover {
     transform: scale(1.1);
     transition: 0.5s ease;
 }
-.icon{
+
+
+
+
+.icon {
     font-size: 8em;
     text-align: center;
     margin: 10px;
 }
-.cssinfo{
-     color: white;
-     font-size: 1.2em;
-     margin: 10px;
-     text-align: center;
+
+
+
+.cssinfo {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
 }
-.insta{
+
+
+
+.insta {
     text-decoration: none;
     color: white;
 }
+.links{
+    text-decoration: none;
+    color: yellow;
+}
+.footer1{
+    background-color: white;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Email{
+color: yellow;
+text-decoration: none;
+}
+.footer2 a{
+    color: rgba(57, 57, 57, 1);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.ico a{
+    color: black;
+    padding: 40px;
+    
+}
+
+
+                                                         /* RESPONSIVE MEDIA */
+
+ @media (max-width:1000px){
+    header{
+        padding: 10px 20px;
+    }
+    .section1{
+    }
+    section,footer {
+        padding: 40px 20px;
+    }
+     .imjoo{
+        display: none;
+     }
+     .section1{
+        background-image: url(itsme.jpg);
+     }
+     .card{
+        width: 100%;
+     }
+     .section1 h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: 1400;
+    }
+    
+    
+    
+    
+    .section1 h1 span {
+        display: inline-block;
+        color: yellow;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    .section1 h2 {
+        color: white;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 23px;
+    }
+    
+    
+    
+    
+    .but1 {
+        text-decoration: none;
+        color: yellow;
+        background: rgb(57, 57, 57);
+        border: yellow;
+        font-size: 18px;
+        font-weight: 600;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 9px;
+    }
+    .done {
+        align-self: flex-start;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+    
+    
+ }
