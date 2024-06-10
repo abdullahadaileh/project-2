@@ -267,7 +267,7 @@ hr{
     color: rgb(0, 0, 0);
 }
 .footer1{
-    background-color: rgba(152, 255, 255, 0.345);
+    background-color: white;
     width: 100%;
     padding: 20px 60px;
     display: flex;
@@ -303,6 +303,30 @@ text-decoration: none;
 
                                                          /* RESPONSIVE MEDIA */
 
+@media (max-width:1000px){
+.section1{
+background-image: url(pexels-francesco-ungaro-281260.jpg);
+width: 100%;
+    min-height: 100vh;
+}
+.imgoo{
+    display: none;
+}
+header{
+    padding: 10px 20px;
+}
+.nav a{
+    font-size: 10px;
+    align-items: center;
+    padding-left: 7px;
+}
+.logo{
+    font-size: 14px;
+
+}
+
+}
+
  @media (max-width:700px){
     
     header{
@@ -311,7 +335,7 @@ text-decoration: none;
     .nav a{
         font-size: 10px;
         align-items: center;
-        padding-left: 10px;
+        padding-left: 7px;
     }
     .logo{
         font-size: 14px;
@@ -334,9 +358,16 @@ text-decoration: none;
     }
      .imgoo{
         display: none;
+        
      }
      .section1{
-        background-image: url(itsme.jpg);
+        background-image: url(pexels-francesco-ungaro-281260.jpg);
+        
+     }
+     .card-proj{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
      }
      .card{
         /* width: 100%; */
@@ -367,17 +398,20 @@ text-decoration: none;
         margin-bottom: 23px;
     }
     
-    
+    .pv{
+        padding: 1px;
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+    .pv a {
+        margin: 8px;
+    }
     
     
     .but1 {
-        text-decoration: none;
-        color: yellow;
-        background: rgb(57, 57, 57);
-        border: yellow;
         font-size: 18px;
         font-weight: 600;
-        display: inline-block;
+        /* display: inline-block; */
         padding: 10px;
         border-radius: 9px;
     }
@@ -390,7 +424,7 @@ text-decoration: none;
         padding: 18px 28px;
     }
     .ico a{
-        padding-left: 40px;
-    padding-right: 40px;
+        padding-left: 30px;
+    padding-right: 30px;
     }
  }
