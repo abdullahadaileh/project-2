@@ -1,267 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="icon" href="WhatsApp_Image_2024-05-05_at_23.33.11_c88fa655-removebg.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="project2.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Abdullah-my portfolio</title>
+  <meta name="title" content="Abdallah AL-Adileh">
+  <meta name="description" content="Abdallah AL-Adilehs portfolio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
 
 </head>
-<body> 
 
-                                                                     <!-- NAVBAR -->
-    <header>
-        <a class="logo"><b>ABDULLAH</b></a>
-        <nav class="nav">
-            <a class="aa" href="#Home">Home</a>          
-            <!-- <a class="aa" href="#About">About</a> -->
-            <a href="#skills">Skills</a>
-            <a href="#education">education</a>
-            <a href="#Contact">Contact</a>
-        </nav>
-    </header>
+<body>
 
-                                                                <!-- SECTION 1 HOME PAGE-->
+  <!-- 
+    - #HEADER
+  -->
 
+  <header class="header" data-header>
+    <div class="container">
 
-    <section class="section1" id="Home">
-        <div class="done">
-            <h1>Hello Im<br><span>ABDULLAH ADAILEH</span></h1>
-            <h2>Website developer</h2>
-            <a href="#Projects" class="but1">Projects</a>
-            <div class="pv">
-                <a class="at" href="tel:+962781075450"><i class="fa-solid fa-phone fa-shake"></i></a>
-                <a class="at" href="mailto:abdullahadaileh957@gmail.com"><i class="fa-solid fa-envelope fa-fade"></i></a>
-                <a class="at" href="https://www.linkedin.com/in/abdullah-adailah-9bb1aa308?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMbVgOae6Q%2FenfpDnjFJQOA%3D%3D"><i class="fa-brands fa-linkedin fa-bounce"></i></a>
-             </div>
-           
+      <a href="#" class="logo">
+        <!-- <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Julia home"> -->
+         <h3>Abdallah </h3>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h3>Abdallah</h3>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
         </div>
-        <div class="imgoo">
-            <img src="6_9_2024 12_10_45 AM.png" width="500">
-        </div>
-    </section>
 
-<!-- SECTION 2 ABOUT ME -->
-   
-    <section class="section2" id="About">
-    <h2 class="About">About</h2>
-    <div class="card-lo">
-    <div class="section21">
-        I have extensive experience in the field of website design and the programming languages ​​Html, Css, and JavaScript.<BR><BR> I studied at Al-Balqa Applied University, specializing in applied programming,<BR><BR> and I am now training at Orange Coding Academy.
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#hero_section" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#About_section" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#project_section" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact_section" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:abdullahadaileh957@egmail.com" class="contact-link">abdullahadaileh957@egmail.com</a>
+
+          <a href="tel:0781075450" class="contact-link">0781075450</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/abdallah-adailah-9bb1aa308?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMbVgOae6Q%2FenfpDnjFJQOA%3D%3D"" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2FAbdullahAdaile0" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/abdullahadaileh" class="social-link">
+              <ion-icon name="logo-Github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/a7____05" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
     </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="hero_section" class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/WhatsApp Image 2024-05-05 at 23.33.11_c88fa655.jpg" width="560" height="540" alt="me" class="w-100"
+              data-reveal="top">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Full stack developer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              I've worked on projects designing and coding websites that are user-friendly
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="https://github.com/abdullahadaileh" class="btn btn-primary">See My Works</a>
+
+              <a href="mailto:abdullahadaileh957@egmail.com" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="About_section" class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                I've worked on projects designing and coding websites that are user-friendly, as well as developing mobile applications.
+                 I'm proficient in languages such as HTML, CSS, JavaScript, PHP, Laravel, React, and WordPress."
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>HTML, CSS, JavaScript, WordPress</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>PHP, Laravel, React</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>SEO</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+
+        </div>
+      </section>
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="project_section" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="https://github.com/abdullahadaileh" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Task Management System</p>
+
+                  <h3 class="h3 card-title">Tasks Buddy</h3>
+
+                  <p class="card-text">
+                    At Tasks Buddy, we harness the power of organization to boost productivity. Our dedicated team of developers and productivity experts has crafted a
+                     tool designed to streamline task management and elevate your project experience.
+                  </p>
+
+                  <a href="https://samisawalqa.github.io/Task-Managment-group-project/" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/dashboard.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+              <br>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0"> e-commerce site</p>
+
+                  <h3 class="h3 card-title">Old House</h3>
+
+                  <p class="card-text">
+                    An e-commerce site for selling used household items, featuring easy navigation, advanced search, and tools for inventory and
+                     sales management. It provides a secure and user-friendly marketplace for both buyers and sellers.
+                  </p>
+
+                  <a href="https://github.com/AbdallahAwaysheh/Old-House" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/Green Light Brown Clean Grid Nature Video Collage1.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+              <br>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0"> e-commerce site</p>
+
+                  <h3 class="h3 card-title">PlayZone</h3>
+
+                  <p class="card-text">
+                     A dynamic platform that connects sports enthusiasts with top indoor and outdoor playing fields.
+                     It simplifies the process of finding and reserving sports facilities, whether you're a casual player or part of a team.
+                  </p>
+
+                  <a href="https://github.com/abdullahadaileh/playZone" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/xcv.PNG" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">My Projects</p>
+
+                  <h3 class="h3 card-title">Missio Theme</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
+                    id ligula felis.
+                  </p>
+
+                  <a href="https://github.com/abdullahadaileh" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/Green Light Brown Clean Grid Nature Video Collage.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="contact_section" class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 abdallahadaileh. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <li>
+            <a href="https://www.linkedin.com/in/abdallah-adailah-9bb1aa308?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMbVgOae6Q%2FenfpDnjFJQOA%3D%3D"" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2FAbdullahAdaile0" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/abdullahadaileh" class="social-link">
+              <ion-icon name="logo-Github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/a7____05" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+
+      </ul>
+
     </div>
-        </section>
-    <section class="cards" id="Css">
-    </section>
-    <hr>
+  </footer>
 
-                                                                 <!-- SECTION SKILLS -->
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-    <section class="cards" id="skills">
-        <h2 class="title">MY SKILLS</h2>
-        <div class="content">
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-brands fa-github" style="color: #4000ff;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3>Github</h3>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-brands fa-square-js" style="color: #4000ff;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3>JavaScript</h3>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-brands fa-css3-alt" style="color: #4000ff;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3>CSS</h3>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-brands fa-html5" style="color: #4000ff;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3>HTML</h3>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-brands fa-git-alt" style="color: #4000ff;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3>GIT</h3>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-brands fa-figma" style="color: #4000ff;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3>Figma</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-
-                                                               <!-- SECTION PROJECTS -->
-
-
-    <section class="cards" id="Projects">
-        <h2 class="title">Projects</h2>
-        <div class="content">
-            <div class="card-proj">
-             <div>
-                <div class="icon">
-                    <img src="Frontend Mentor _ Recipe page - Google Chrome 5_19_2024 10_32_19 PM.png" width="200px">
-                </div>
-                <div class="cssinfo">
-                    <h3><a class="insta" href="https://abdullahadaileh.github.io/mine-project/">frontend mentor challenge</a></h3>
-                </div>
-             </div>
-                <!-- <div class="cssinfo">
-                    <h3><a class="insta" href="https://abdullahadaileh.github.io/mine-project/">frontend mentor challenge</a></h3>
-                </div> -->
-            <!-- </div>
-            <div class="card-proj"> -->
-                <div>
-                <div class="icon">
-                    <img src="Untitled – Figma - Google Chrome 5_19_2024 11_26_18 PM.png" width="200px">
-                </div>
-                <div class="cssinfo">
-                    <h3><a class="insta" href="https://www.figma.com/design/bWrq6MztrJq1fcj4I8KI0R/Untitled?t=LgnI59JIA2EXNfTG-1">Youtube figma project</a></h3>
-                </div>
-            </div>
-                <!-- <div class="cssinfo">
-                    <h3><a class="insta" href="https://www.figma.com/design/bWrq6MztrJq1fcj4I8KI0R/Untitled?t=LgnI59JIA2EXNfTG-1">Youtube figma project</a></h3>
-                </div> -->
-            </div>
-            
-            
-            </div>
-        </div>
-    </section>
-    <hr>
-
- 
-                                                                <!-- SECTION EDUCATION -->
-
-    <section class="cards" id="education">
-        <h2 class="title">Education</h2>
-        <div class="content">
-            <div class="card-edu">
-                <div class="icon">
-                    <img src="خليل الرحمن (1) (1).png" width="150px">
-                </div>
-                <div class="cssinfo">
-                    <h3>Khalil Rahman Academy</h3>
-                </div>
-            </div>
-            <div class="card-edu">
-                <div class="icon">
-                    <img src="alme.png" width="150px">
-                </div>
-                <div class="cssinfo">
-                    <h3>Model scientific school</h3>
-                </div>
-            </div>
-            
-            <div class="card-edu">
-                <div class="icon">
-                    <img src="jam3a (1).png" width="150px">
-                </div>
-                <div class="cssinfo">
-                    <h3>Balqa Applied University</h3>
-                </div>
-            </div>
-            <div class="card-edu">
-                <div class="icon">
-                    <img src="orange.jpg" width="150px">
-                </div>
-                <div class="cssinfo">
-                    <h3>Orange Coding Academy</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-                                                                   <!-- SECTION CONTACT -->
-
-<hr>
-    <section class="contact-me" id="Contact">
-
-        <h2 class="title">Contact Me</h2>
-
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-envelope" style="color:#007BFF;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3><a class="links" href="mailto:abdullahadaileh957@gmail.com">Email</a></h3>
-                </div>
-            </div>
-
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-phone" style="color:#007BFF;"></i>
-                </div>
-                <div class="cssinfo">
-                    <h3><a class="links" href=tel:0781075450">Phone</a></h3>
-                    
-                </div>
-                
-            </div>
-                <div class="content">
-                    <!-- <div class="card">
-                        <div class="icon">
-                            <i cl class="fa-brands fa-instagram" style="color: white;"></i>
-                        </div>
-                        <div class="cssinfo">
-                            <h3><a href="https://www.instagram.com/a7____05" class="links"">Instagram</a></h3> -->
-                            
-                        </div>
-                    </div>
-                    <div class="content">
-                        <div class="card">
-                            <div class="icon">
-                                <i class="fa-brands fa-linkedin" style="color:#007BFF;"></i>
-                            </div>
-                            
-                            <div class="cssinfo">
-                                <h3 style="color: yellow;"><a href="https://www.linkedin.com/in/abdullah-adailah-9bb1aa308?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMbVgOae6Q%2FenfpDnjFJQOA%3D%3D" class="links">Linked in</a></h3>
-                                
-                            </div>
-                        </div>
-                        
-    
-                </section>
-                <footer class="footer1">
-                
-                    
-                    <div class="ico">
-                       <a class="at" href="tel:+962781075450"><i class="fas fa-phone"></i></a>
-                       <a class="at" href="mailto:abdullahadaileh957@gmail.com"><i class="fas fa-envelope"></i></a>
-                       <a class="at" href="https://www.linkedin.com/in/abdullah-adailah-9bb1aa308?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMbVgOae6Q%2FenfpDnjFJQOA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    
-            
-                </footer>
 </body>
+
 </html>
