@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 255, 255);
+    background: rgb(57, 57, 57);
 }
 
 * {
@@ -18,7 +18,7 @@ section,footer {
                                    /* NAVBAR START*/
 
 header {
-    background-color:white;
+    background-color: white;
     width: 100%;
     position: fixed;
     display: flex;
@@ -31,13 +31,13 @@ header {
 
 
 .logo {
-    color:#007BFF;
+    color: rgba(57, 57, 57, 1);
     font-weight: 400;
     font-size: 28px;
     text-decoration: none;
 }
 .logox{
-    color:#007BFF;
+    color: rgba(57, 57, 57, 1);
     font-weight: 400;
     font-size: 28px;
     text-decoration: none;
@@ -47,17 +47,17 @@ header {
 
 
 .nav a {
-    color:#007BFF;
+    color: rgba(57, 57, 57, 1);
     text-decoration: none;
     font-weight: 300;
     font-size: 20px;
     padding-left: 20px;
 }
-.nav a:hover{
-    /* transform: scale(1.1); */
+/* .nav:hover{
+    transform: scale(1.1);
     transition: 0.5s ease;
-color:#666666;
-}
+
+} */
 
 
 
@@ -71,10 +71,10 @@ color:#666666;
     display: flex;
     align-items: end;
     justify-content: space-between;
-    background: url(pexels-francesco-ungaro-281260.jpg) no-repeat;
+    background: url(Black\ back.png) no-repeat;
     background-size: cover;
     padding: 0% !important;
-    box-shadow: 0 10px 25px rgba(1, 1, 1, 0.312);
+    box-shadow: 0 10px 25px rgba(1 1 1 / 19%);
 }
 
 
@@ -119,9 +119,9 @@ color:#666666;
 
 .but1 {
     text-decoration: none;
-    color:#007BFF;
-    background:white;
-    border: rgb(0, 0, 0);
+    color: yellow;
+    background: rgb(57, 57, 57);
+    border: yellow;
     font-size: 30px;
     font-weight: 600;
     display: inline-block;
@@ -134,52 +134,35 @@ color:#666666;
 
 
 .but1:hover {
-    /* background: rgb(239, 236, 236); */
+    background: rgb(60, 60, 60);
     transform: scale(1.1);
     transition: 0.5s ease;
-    color: #666666;
 
 }
 
-.imgoo{
-    margin-bottom: -3px;
-    margin-right: 0;
-}
 
 
 
 .About {
     display: flex;
     justify-content: center;
-    color:#333333;
+    color: yellow;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 50px;
 
 }
 
-.card-lo{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.284);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-}
 
-hr{
-    color: #007BFF;
-}
-.section2{
-    margin-bottom: -99px;
-}
+
+
 
 .section21 {
-    color :#666666 ;
+    color: white;
     display: flex;
     justify-content: center;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -190,7 +173,7 @@ hr{
 .title {
     display: flex;
     justify-content: center;
-    color:#333333 ;
+    color: yellow;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 50px;
@@ -206,28 +189,26 @@ hr{
     flex-direction: row;
     /* flex-wrap: wrap; */
 }
+
 .card {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(36, 36, 36);
     width: 200px;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.284);
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
 }
 .card-proj{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    width: 700px;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.111);
+    background-color: rgb(36, 36, 36);
+    width: 500px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
 
 }
 .card-proj:hover {
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
     transition: 0.5s ease;
 }
 
@@ -241,6 +222,7 @@ hr{
 
 
 
+
 .icon {
     font-size: 8em;
     text-align: center;
@@ -250,7 +232,7 @@ hr{
 
 
 .cssinfo {
-    color:#666666 ;
+    color: white;
     font-size: 1.2em;
     margin: 10px;
     text-align: center;
@@ -260,11 +242,11 @@ hr{
 
 .insta {
     text-decoration: none;
-    color:#666666;
+    color: white;
 }
 .links{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: yellow;
 }
 .footer1{
     background-color: white;
@@ -276,11 +258,11 @@ hr{
     
 }
 .Email{
-color:#666666;
+color: yellow;
 text-decoration: none;
 }
 .footer2 a{
-    color:#666666;
+    color: rgba(57, 57, 57, 1);
     text-decoration: none;
     font-weight: 300;
     font-size: 20px;
@@ -288,44 +270,13 @@ text-decoration: none;
 
 }
 .ico a{
-    color:#007BFF;
+    color: black;
     padding-left: 80px;
     padding-right: 80px;
 }
-.pv{
-    margin-top: 15px;
-}
-.pv a {
-    color:white;
-    margin: 15px;
-    }
 
 
                                                          /* RESPONSIVE MEDIA */
-
-@media (max-width:1000px){
-.section1{
-background-image: url(pexels-francesco-ungaro-281260.jpg);
-width: 100%;
-    min-height: 100vh;
-}
-.imgoo{
-    display: none;
-}
-header{
-    padding: 10px 20px;
-}
-.nav a{
-    font-size: 10px;
-    align-items: center;
-    padding-left: 7px;
-}
-.logo{
-    font-size: 14px;
-
-}
-
-}
 
  @media (max-width:700px){
     
@@ -335,7 +286,7 @@ header{
     .nav a{
         font-size: 10px;
         align-items: center;
-        padding-left: 7px;
+        padding-left: 10px;
     }
     .logo{
         font-size: 14px;
@@ -356,18 +307,11 @@ header{
     section,footer {
         padding: 40px 20px;
     }
-     .imgoo{
+     .imjoo{
         display: none;
-        
      }
      .section1{
-        background-image: url(pexels-francesco-ungaro-281260.jpg);
-        
-     }
-     .card-proj{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        background-image: url(itsme.jpg);
      }
      .card{
         /* width: 100%; */
@@ -398,20 +342,17 @@ header{
         margin-bottom: 23px;
     }
     
-    .pv{
-        padding: 1px;
-        margin-top: 10px;
-        margin-left: -5px;
-    }
-    .pv a {
-        margin: 8px;
-    }
+    
     
     
     .but1 {
+        text-decoration: none;
+        color: yellow;
+        background: rgb(57, 57, 57);
+        border: yellow;
         font-size: 18px;
         font-weight: 600;
-        /* display: inline-block; */
+        display: inline-block;
         padding: 10px;
         border-radius: 9px;
     }
@@ -424,7 +365,7 @@ header{
         padding: 18px 28px;
     }
     .ico a{
-        padding-left: 30px;
-    padding-right: 30px;
+        padding-left: 40px;
+    padding-right: 40px;
     }
  }
